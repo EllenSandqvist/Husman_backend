@@ -1,4 +1,19 @@
-## Prisma Boiler plate
+## Project overview
+
+project-root/
+├── prisma/
+│ └── schema.prisma
+├── src/
+│ ├── routes/
+│ │ └── recipes.ts
+│ └── index.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+
+## API Endpoint
+
+GET /recipes: Fetches all recipes from the database.
 
 ### Install dependencies
 
